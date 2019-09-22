@@ -1,0 +1,60 @@
+<nav class="navbar bg-light mb-4">
+<div class="navbar-header">メニュー</div>
+<div class="navbar mr-auto navbar-light">
+<%= link_to '#',class:"nav-item nav-link" do %>
+<i class="fa fa-home"></i>Home
+<% end %>
+<%= link_to '#',class:"nav-item nav-link" do %>
+<i class="fa fa-glass"></i>Drink
+<% end %>
+<%= link_to 'Food','#',class:"nav-item nav-link" %>
+</div>
+<div class="navbar">
+<%= link_to 'アクセス','#',class:"nav-item nav-link" %>
+<%= link_to '予約','#',class:"nav-item navbar-right nav-link" %>
+</div>
+</nav>
+<div class="btn-toolbar mb-3">
+<div class="btn-group">
+<button class="btn btn-default">5月</button>
+<button class="btn btn-default">6月</button>
+<button class="btn btn-default">7月</button>
+<button class="btn btn-default">8月</button>
+</div>
+</div>
+<form class="row">
+<label class="col-md-2 control-label">オプション</label>
+<div class="col-sm-10">
+<div class="form-check"><label class="form-check-lable"><input type="radio" name="iro" class="form-check-input">赤</label></div>
+<div class="form-check"><label class="form-check-lable"><input type="radio" name="iro" class="form-check-input">黃</label></div>
+<div class="form-check"><label class="form-check-lable"><input type="radio" name="iro" class="form-check-input">白</label></div>
+</div>
+<label class="col-md-2 control-label">色の選択</label>
+<div class="col-sm-10">
+<div class="form-check"><label class="form-check-lable"><input type="checkbox" class="form-check-input">ギフト包装</label></div>
+<div class="form-check"><label class="form-check-lable"><input type="checkbox" class="form-check-input">配送日指定</label></div>
+<div class="form-check"><label class="form-check-lable"><input type="checkbox" class="form-check-input">メール</label></div>
+</div>
+</body>
+<button class="btn btn-success btn-lg active">コミット2</button>
+</form>
+<%= link_to '#',class:"btn btn-info mt-4 float-right" do %>
+<i class="fa fa-search ml-2"></i>登録
+<% end %>
+<button class="btn btn-info float-left mt-4"><<<</button>
+<button class="btn btn-info float-right mt-4">>>></button>
+
+<div class="btn-group">
+  <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    国立美術館 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="http://www.momat.go.jp/">東京国立近代美術館</a></li>
+    <li><a href="http://www.momak.go.jp/">京都国立近代美術館</a></li>
+    <li><a href="http://www.nmwa.go.jp/">国立西洋美術館</a></li>
+    <li><a href="http://www.nmao.go.jp/">国立国際美術館</a></li>
+    <li><a href="http://www.nact.jp/">国立新美術館</a></li>
+    <li class="divider"></li>
+    <li><a href="http://www.artmuseums.go.jp/">独立行政法人 国立美術館</a></li>
+  </ul>
+</div>

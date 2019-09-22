@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  1.upto(18) do |n|
+  1.upto(100) do |n|
     get "lesson/step#{n}(/:name)" => "lesson#step#{n}"
   end
   root "lesson#step1"
